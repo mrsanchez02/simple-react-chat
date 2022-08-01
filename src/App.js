@@ -2,7 +2,7 @@ import io from "socket.io-client";
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const socket = io("http://localhost:4000");
+const socket = io("https://simple-react-chat-zae.herokuapp.com/:4000");
 
 function App() {
   const [message, setMessage] = useState("");
